@@ -44,7 +44,9 @@ body {
 .card-image {
 	width: 100%;
 }
+
 .card-image img {
+	width: 100%;
 }
 .card-detail {
 	margin: 1.25rem;
@@ -98,14 +100,14 @@ body {
 	font-size: 0.8rem;
 	font-weight: 700;
 	text-decoration: none;
-  transition: all .1s;
-  border-bottom: 2px solid var(--color-bright-blue);
+	transition: all 0.1s;
+	border-bottom: 2px solid var(--color-bright-blue);
 }
 .change-link:hover,
 .change-link:active {
 	color: var(--color-bright-blue);
 	border: none;
-  transition: all 2s;
+	transition: all 2s;
 }
 
 .button {
@@ -131,12 +133,12 @@ body {
 .attribution {
 	font-size: 11px;
 	text-align: center;
-  display: block;
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  font-size: .8rem;
-  transform: translateX(-50%);
+	display: block;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	font-size: 0.8rem;
+	transform: translateX(-50%);
 }
 .attribution a {
 	color: hsl(228, 45%, 44%);
